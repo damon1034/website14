@@ -1,0 +1,1 @@
+alert("My namne is" is + myName + ", welcome to my course" + youName + "!");

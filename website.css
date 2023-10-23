@@ -1,0 +1,314 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo img{
+    width: 100px;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    font-family: 'poppins', sans-serif;
+}
+.nav-list li{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    list-style: none;
+
+}
+.nav-list li a{
+    font-size: 17px;
+     color: #f8c200;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color: #fa9600;
+}
+
+.RightNav{
+    padding: 12px;
+    text-align: right;
+    width: 40%;
+}
+
+#search{
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid #f89900;;
+}
+.btn-sm{
+    padding: 2px;
+    border-radius: 5px;
+    border: 2px solid #f8a500;;
+    cursor: pointer;
+}
+.background{
+    background: linear-gradient(to bottom left,  transparent, 80%, #422801  ),
+    url(image/wallpaperflare.com_wallpaper\ \(1\).jpg);
+   background-size: cover; 
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondHalf{
+    width: 200px;
+    margin-top: 100px;
+}
+.secondHalf img{
+    width: 300px;
+    border-radius: 150px;
+    border: 1px solid rgb(71, 1, 1);
+}
+
+.text-big{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'poppins', sans-serif;
+    color: #f8a500;
+    font-size: 40px;
+}
+.text-small{
+    text-align: center;
+    color:rgb(212, 212, 212) ;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.imgFluid{
+    width: 300px;
+}
+.section{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     max-width: 80%;
+     margin: auto;
+     padding: 60px;
+    
+}
+
+.section-Left{      
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sectionTag{
+      padding: 6px 0px;
+      font-size: 30px;
+}
+
+.paras{
+    padding: 0px 26px;
+    font-size: 17px;
+}
+
+.sectionSubTag{
+    padding-top: 3px;
+    word-break: break-all;
+}
+
+.thumbnail img{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+#name{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 2px 30px ;
+}
+
+#qodef-content-bottom{
+   color: #f8a500;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.flex-column li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #f8a500;
+}
+.flex-column li a:hover{
+    color:#fa6c00;
+}
+
+.layout-column{
+    color: #f8a500;
+   cursor: pointer;
+    height: 45vh;
+}
+
+.peck{
+    position: relative;
+    bottom: 2px;
+    padding:5px 10px;
+    background: none;
+    border: 2px solid #f8a500;
+    border-radius: 6px;
+    color: #f8a500;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.peck:hover{
+    color: white;
+    background-color: #f89900;
+}
+
+.burger{
+display: none;
+position:absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.nav-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    color: #f8a500;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.nav-item:hover{
+    color: #fa6c00;
+}
+.container3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 210px;
+    background: linear-gradient(black, #f8a500);
+
+}
+.nav-item1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8a500;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-item1:hover{
+    color: #fa6c00;
+}
+
+
+
+
+@media only screen and (max-width:1140px){
+
+    .nav-list {
+        flex-direction: column;
+       
+    }
+    .Navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height:467px ;
+    }
+    .RightNav{
+        text-align: center;
+        width: 20%;
+    }
+
+    #search{
+        width: 200%;
+    }
+    .peck{
+        margin-top: 5px;
+    }
+    .burger{
+        display: block;
+    }
+   .h-nav-resp{
+    height: 72px;
+   }
+   .v-class-resp{
+    opacity: 0;
+   }
+   .logo img{
+    flex-direction: column;   
+   }
+
+   .secondHalf img{
+    width: 200px;
+   }
+
+.section{
+     flex-direction: column-reverse;
+}
+.text-big{
+    text-align: center;
+}
+
+.text-small{
+ text-align: center;   
+}
+
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+.layout-column{
+    align-items:center ;
+}
+.section{
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 25px;
+   
+}
+
+}
+
+
+.test {
+    color: red;
+}

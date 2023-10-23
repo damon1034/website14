@@ -1,0 +1,35 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    background-color: #051d35;
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list li{
+    font-family: "poppins," sans-serif;
+    list-style: none;
+    padding: 20px 30px;
+
+}
+.nav-list li:hover{
+    color: #64CCC5;
+
+}
+
+
+.logo img{
+    height: 50px;
+    border-radius: 150px;
+}
